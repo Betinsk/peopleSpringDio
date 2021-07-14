@@ -3,11 +3,12 @@ package com.digitalinnovation.personapi.enums;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
+
 @Getter
 @AllArgsConstructor
 public enum PhoneType {
 
-    NOME("Home"),
+    HOME("Home"),
     MOBILE("Mobile"),
     COMMERCIAL("Commercial");
 
